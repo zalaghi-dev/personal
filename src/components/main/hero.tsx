@@ -1,13 +1,16 @@
 import { Button } from "../ui/button";
 import { useTranslation } from "react-i18next";
 import Typewriter from "typewriter-effect";
+import { Meteors } from "../ui/meteors";
 
 export function Hero() {
   const { t } = useTranslation();
 
   return (
-    <section className="flex min-h-[calc(100vh-4rem)] items-start justify-center pt-32 py-12">
-      <Meteors />
+    <section className="flex min-h-[calc(100vh-7rem)] items-start justify-center pt-32 py-12">
+      <div className="z-[-3]">
+        <Meteors />
+      </div>
 
       <div className="container grid gap-12 px-4 md:grid-cols-2 md:gap-8">
         <div className="flex px-10 flex-col items-start justify-center gap-6">
