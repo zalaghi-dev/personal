@@ -6,6 +6,7 @@ import { useLanguageStore } from "@/store/language-store";
 import { useTranslation } from "react-i18next";
 import { languages } from "./locales";
 import { Services } from "./components/main/services";
+import { TechStack } from "./components/main/tech-stack";
 
 const AllWrapper = () => {
   const { lang } = useLanguageStore();
@@ -20,6 +21,7 @@ const AllWrapper = () => {
     <ThemeProvider defaultTheme="dark" storageKey="personal">
       <Header />
       <Hero />
+      <TechStack />
       <Services />
     </ThemeProvider>
   );

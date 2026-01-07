@@ -7,14 +7,18 @@ export function Hero() {
 
   return (
     <section className="flex min-h-[calc(100vh-4rem)] items-start justify-center pt-32 py-12">
+      <Meteors />
+
       <div className="container grid gap-12 px-4 md:grid-cols-2 md:gap-8">
         <div className="flex px-10 flex-col items-start justify-center gap-6">
           <div className="space-y-6">
-            <h2 className="text-4xl font-light text-muted-foreground">{t('hero.greeting')}</h2>
+            <h2 className="text-4xl font-light text-muted-foreground">
+              {t("hero.greeting")}
+            </h2>
             <h1 className="text-5xl font-bold md:text-6xl">
               <Typewriter
                 options={{
-                  strings: [t('hero.name'), t('hero.role')],
+                  strings: [t("hero.name"), t("hero.role")],
                   autoStart: true,
                   loop: true,
                 }}
@@ -23,9 +27,9 @@ export function Hero() {
           </div>
 
           <div className="flex flex-wrap mt-10 gap-4">
-            <Button size="lg">{t('hero.resume')}</Button>
+            <Button size="lg">{t("hero.resume")}</Button>
             <Button size="lg" variant="outline">
-              {t('hero.contact')}
+              {t("hero.contact")}
             </Button>
           </div>
         </div>
