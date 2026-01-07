@@ -1,5 +1,6 @@
 import { ModeToggle } from "./mode-toggle";
 import { LanguageToggle } from "./language-toggle";
+import { ScrollProgress } from "../ui/scroll-progress";
 
 export function Header() {
   return (
@@ -13,6 +14,7 @@ export function Header() {
           <ModeToggle />
         </div>
       </div>
+      <ScrollProgress className="bottom-0" />
     </header>
   );
 }
