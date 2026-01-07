@@ -6,10 +6,10 @@ export function Hero() {
   const { t } = useTranslation();
 
   return (
-    <section className="flex min-h-[calc(100vh-4rem)] items-center justify-center py-12">
+    <section className="flex min-h-[calc(100vh-4rem)] items-start justify-center pt-32 py-12">
       <div className="container grid gap-12 px-4 md:grid-cols-2 md:gap-8">
         <div className="flex px-10 flex-col items-start justify-center gap-6">
-          <div className="space-y-2">
+          <div className="space-y-6">
             <h2 className="text-4xl font-light text-muted-foreground">{t('hero.greeting')}</h2>
             <h1 className="text-5xl font-bold md:text-6xl">
               <Typewriter
@@ -22,7 +22,7 @@ export function Hero() {
             </h1>
           </div>
 
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-wrap mt-10 gap-4">
             <Button size="lg">{t('hero.resume')}</Button>
             <Button size="lg" variant="outline">
               {t('hero.contact')}
