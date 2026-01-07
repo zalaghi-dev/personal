@@ -1,5 +1,11 @@
 {
   "welcome": "خوش آمدید",
   "language": "زبان",
-  "theme": "تم"
+  "theme": "تم",
+  "hero": {
+    "greeting": "سلام",
+    "name": "من امیر زلقی ام",
+    "resume": "رزومه من",
+    "contact": "تماس با من"
+  }
 }

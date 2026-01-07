@@ -1,5 +1,6 @@
 import { ThemeProvider } from "@/components/main/theme-provider";
 import { Header } from "@/components/main/header";
+import { Hero } from "@/components/main/hero";
 import { useEffect } from "react";
 import { useLanguageStore } from "@/store/language-store";
 import { useTranslation } from "react-i18next";
@@ -17,9 +18,7 @@ const AllWrapper = () => {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="personal">
       <Header />
-      <main className="container mx-auto p-4">
-        <div></div>
-      </main>
+      <Hero />
     </ThemeProvider>
   );
 };
