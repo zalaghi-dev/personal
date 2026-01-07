@@ -1,4 +1,4 @@
-import { Code, Smartphone, Palette, Server } from "lucide-react";
+import { Layers, Server, Rocket, Cloud } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
 export interface Service {
@@ -6,31 +6,36 @@ export interface Service {
   icon: LucideIcon;
   titleKey: string;
   descriptionKey: string;
+  techStackKey: string;
 }
 
 export const services: Service[] = [
   {
-    id: "webDev",
-    icon: Code,
-    titleKey: "services.webDev.title",
-    descriptionKey: "services.webDev.description",
-  },
-  {
-    id: "mobileDev",
-    icon: Smartphone,
-    titleKey: "services.mobileDev.title",
-    descriptionKey: "services.mobileDev.description",
-  },
-  {
-    id: "uiDesign",
-    icon: Palette,
-    titleKey: "services.uiDesign.title",
-    descriptionKey: "services.uiDesign.description",
+    id: "fullStack",
+    icon: Layers,
+    titleKey: "services.fullStack.title",
+    descriptionKey: "services.fullStack.description",
+    techStackKey: "services.fullStack.techStack",
   },
   {
     id: "backend",
     icon: Server,
     titleKey: "services.backend.title",
     descriptionKey: "services.backend.description",
+    techStackKey: "services.backend.techStack",
+  },
+  {
+    id: "saas",
+    icon: Rocket,
+    titleKey: "services.saas.title",
+    descriptionKey: "services.saas.description",
+    techStackKey: "services.saas.techStack",
+  },
+  {
+    id: "devops",
+    icon: Cloud,
+    titleKey: "services.devops.title",
+    descriptionKey: "services.devops.description",
+    techStackKey: "services.devops.techStack",
   },
 ];

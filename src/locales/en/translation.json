@@ -11,21 +11,25 @@
   },
   "services": {
     "title": "Services",
-    "webDev": {
-      "title": "Web Development",
-      "description": "Building modern and responsive web applications using latest technologies"
-    },
-    "mobileDev": {
-      "title": "Mobile Development",
-      "description": "Creating cross-platform mobile applications with great user experience"
-    },
-    "uiDesign": {
-      "title": "UI/UX Design",
-      "description": "Designing beautiful and intuitive user interfaces for better engagement"
+    "fullStack": {
+      "title": "Full-Stack Web Development",
+      "description": "Design and implementation of modern web applications",
+      "techStack": "Next.js / React • TypeScript • PostgreSQL / Prisma • Clean Architecture • Production-ready code"
     },
     "backend": {
-      "title": "Backend Development",
-      "description": "Building scalable and secure server-side applications and APIs"
+      "title": "Backend & API Engineering",
+      "description": "Scalable and secure backend design",
+      "techStack": "REST API • Authentication & Authorization • Role-based Access Control • Database design"
+    },
+    "saas": {
+      "title": "SaaS & MVP Development",
+      "description": "Building MVPs and SaaS for startups",
+      "techStack": "Multi-tenant architecture • Admin panel • Feature-based growth • MVP → Scale"
+    },
+    "devops": {
+      "title": "DevOps & Deployment",
+      "description": "Setup and deployment of real-world projects",
+      "techStack": "Docker / Docker Compose • CI/CD • Linux server • Reverse proxy (Traefik / Nginx)"
     }
   }
 }

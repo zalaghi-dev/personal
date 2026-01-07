@@ -14,9 +14,11 @@ export function Services() {
   return (
     <section className="py-20 bg-muted/50">
       <div className="container px-4">
-        <div className="mb-12 text-center">
-          <h2 className="text-3xl font-bold md:text-4xl">{t("services.title")}</h2>
-        </div>
+        {/* <div className="mb-12 text-center">
+          <h2 className="text-3xl font-bold md:text-4xl">
+            {t("services.title")}
+          </h2>
+        </div> */}
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {services.map((service) => {
@@ -24,17 +26,20 @@ export function Services() {
             return (
               <Card key={service.id} className="transition-all hover:shadow-lg">
                 <CardHeader>
-                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
-                    <Icon className="h-6 w-6 text-primary" />
+                  <div className="mb-4 m-auto flex size-24 items-center justify-center rounded-lg bg-primary/10">
+                    <Icon className="size-14 m-auto text-primary" />
                   </div>
-                  <CardTitle className="text-xl">
+                  <CardTitle className="text-xl text-center font-semibold">
                     {t(service.titleKey)}
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-base">
+                  <CardDescription className="text-base text-center mb-4">
                     {t(service.descriptionKey)}
                   </CardDescription>
+                  <p className="text-xs text-muted-foreground/80 text-center leading-relaxed">
+                    {t(service.techStackKey)}
+                  </p>
                 </CardContent>
               </Card>
             );
