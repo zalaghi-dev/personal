@@ -5,6 +5,7 @@
   "hero": {
     "greeting": "Hello",
     "name": "I'm Amir Zalaghi",
+    "role": "Software Engineer",
     "resume": "My Resume",
     "contact": "Contact me"
   }

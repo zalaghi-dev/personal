@@ -1,5 +1,6 @@
 import { Button } from "../ui/button";
 import { useTranslation } from "react-i18next";
+import Typewriter from "typewriter-effect";
 
 export function Hero() {
   const { t } = useTranslation();
@@ -10,7 +11,15 @@ export function Hero() {
         <div className="flex px-10 flex-col items-start justify-center gap-6">
           <div className="space-y-2">
             <h2 className="text-4xl font-light text-muted-foreground">{t('hero.greeting')}</h2>
-            <h1 className="text-5xl font-bold md:text-6xl">{t('hero.name')}</h1>
+            <h1 className="text-5xl font-bold md:text-6xl">
+              <Typewriter
+                options={{
+                  strings: [t('hero.name'), t('hero.role')],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </h1>
           </div>
 
           <div className="flex flex-wrap gap-4">
