@@ -31,5 +31,11 @@
       "description": "Setup and deployment of real-world projects",
       "techStack": "Docker / Docker Compose • CI/CD • Linux server • Reverse proxy (Traefik / Nginx)"
     }
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Software engineer building reliable products",
+    "p1": "I craft robust, user-focused applications with clean architecture and modern tooling.",
+    "p2": "I enjoy solving real problems and shipping maintainable, scalable software."
   }
 }

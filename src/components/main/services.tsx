@@ -7,7 +7,6 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { RetroGrid } from "../ui/retro-grid";
 
 export function Services() {
   const { t } = useTranslation();

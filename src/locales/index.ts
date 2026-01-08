@@ -15,3 +15,13 @@ export const languages = {
 } as const;
 
 export type Language = keyof typeof languages;
+
+type DotNestedLeafKeys<T> = T extends object
+  ? {
+      [K in keyof T & (string | number)]: T[K] extends object
+        ? `${K}.${DotNestedLeafKeys<T[K]>}`
+        : `${K}`
+    }[keyof T & (string | number)]
+  : never;
+
+export type TranslationKeys = DotNestedLeafKeys<typeof en>;

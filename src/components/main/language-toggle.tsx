@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Button } from '../ui/button';
 import {
@@ -16,8 +17,11 @@ export function LanguageToggle() {
   const handleLanguageChange = (newLang: 'en' | 'fa') => {
     setLanguage(newLang);
     i18n.changeLanguage(newLang);
-    document.documentElement.dir = languages[newLang].dir;
   };
+
+  useEffect(() => {
+    document.documentElement.dir = languages[lang].dir;
+  }, [lang]);
 
   return (
     <DropdownMenu>

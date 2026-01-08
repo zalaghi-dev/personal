@@ -1,12 +1,13 @@
 import { Layers, Server, Rocket, Cloud } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
+import type { TranslationKeys } from "@/locales";
 
 export interface Service {
   id: string;
   icon: LucideIcon;
-  titleKey: string;
-  descriptionKey: string;
-  techStackKey: string;
+  titleKey: TranslationKeys;
+  descriptionKey: TranslationKeys;
+  techStackKey: TranslationKeys;
 }
 
 export const services: Service[] = [

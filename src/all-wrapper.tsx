@@ -7,6 +7,7 @@ import { useTranslation } from "react-i18next";
 import { languages } from "./locales";
 import { Services } from "./components/main/services";
 import { TechStack } from "./components/main/tech-stack";
+import { About } from "./components/main/about";
 
 const AllWrapper = () => {
   const { lang } = useLanguageStore();
@@ -23,6 +24,7 @@ const AllWrapper = () => {
       <Hero />
       <TechStack />
       <Services />
+      <About />
     </ThemeProvider>
   );
 };
