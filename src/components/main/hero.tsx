@@ -1,7 +1,8 @@
-import { Button } from "../ui/button";
 import { useTranslation } from "react-i18next";
 import Typewriter from "typewriter-effect";
 import { Meteors } from "../ui/meteors";
+import { Button } from "../ui/button";
+import { ContactDialog } from "./contact-dialog";
 
 export function Hero() {
   const { t } = useTranslation();
@@ -15,13 +16,13 @@ export function Hero() {
         <Meteors />
       </div>
 
-      <div className="container grid gap-12 px-4 md:grid-cols-2 md:gap-8">
+      <div className="container max-w-10/12 mx-auto grid gap-12 px-4 md:grid-cols-2 md:gap-8">
         <div className="flex px-10 flex-col items-start justify-center gap-6">
           <div className="space-y-6">
             <h2 className="text-4xl font-light text-muted-foreground">
               {t("hero.greeting")}
             </h2>
-            <h1 className="text-5xl font-bold md:text-6xl">
+            <h1 className="text-4xl font-bold md:text-5xl">
               <Typewriter
                 options={{
                   strings: [t("hero.name"), t("hero.role")],
@@ -38,9 +39,7 @@ export function Hero() {
                 {t("hero.resume")}
               </a>
             </Button>
-            <Button size="lg" variant="outline">
-              {t("hero.contact")}
-            </Button>
+            <ContactDialog />
           </div>
         </div>
         <div className="flex items-center justify-center">

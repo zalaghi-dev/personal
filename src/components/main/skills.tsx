@@ -33,7 +33,7 @@ export function Skills() {
             <Card
               key={title}
               className={clsx(
-                "size-35 flex items-center justify-center text-center",
+                "size-35 border-2 flex items-center justify-center text-center",
                 {
                   "border-green-600": rate === "pro",
                   "border-yellow-600": rate === "mid",

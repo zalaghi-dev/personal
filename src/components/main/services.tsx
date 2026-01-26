@@ -14,7 +14,7 @@ export function Services() {
   return (
     <section className="py-20">
       {/* <RetroGrid /> */}
-      <div className="container px-4 max-w-7xl mx-auto">
+      <div className="container px-4 py-10 max-w-10/12 mx-auto">
         <div className="mb-16 text-center">
           <h2 className="text-3xl font-bold md:text-4xl mb-3">
             {t("services.title")}

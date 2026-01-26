@@ -56,20 +56,55 @@
       },
       "binesh": {
         "date": "Oct 2023 - Jan 2026",
-        "content": ""
+        "content": "Owned and evolved the project architecture and API design, with a strong focus on modular, scalable code. Mentored 5+ interns through hands-on code reviews, tailored learning paths, and practical tasks, helping 2 of them grow into full-time developers. Also supported team coordination by managing Trello boards and occasionally taking on Scrum Master responsibilities to keep delivery on track."
       },
       "airun": {
         "date": "Oct 2024 - Present",
-        "content": ""
+        "content": "Serving as a strategic engineer and full-stack JavaScript developer across the product. Responsible for designing and implementing all JavaScript-heavy parts of the system — from frontend experiences to backend services — to ensure technical decisions match business goals and keep the product maintainable and extensible."
       },
       "mizfa": {
         "date": "Sep 2023 - Jan 2025",
-        "content": ""
+        "content": "Collaborated remotely with the Mizfa team to deliver and maintain multiple client projects. Handled end-to-end feature development, refactoring legacy parts of the stack, and working across frontend and backend to ship stable, production-ready functionality in an asynchronous, remote setup."
       },
       "independent": {
         "date": "Jan 2020 - Dec 2022",
         "content": "Focused on mastering JavaScript, modern web development frameworks, and full-stack concepts alongside my formal high school education. Completed online courses, built small to mid-size projects, and explored key areas like React, Node.js, and deployment fundamentals. This period laid the foundation for my professional work."
       }
     }
+  },
+  "projects": {
+    "title": "Selected Projects",
+    "subtitle": "A few real-world products I’ve helped build",
+    "items": {
+      "hubinesh": {
+        "description": "MVP for a team-focused task management application with real-time collaboration. Led both frontend and backend using React and NestJS, designed data models with PostgreSQL and MongoDB, and integrated live updates over Socket.IO. Also coordinated the small team, assigned tasks, and kept the project on track throughout a 5‑month delivery window."
+      },
+      "ai-run-sso": {
+        "description": "Centralized SSO web app for AI‑Run products, built with React, TypeScript, Redux, and Tailwind. Implemented authentication and authorization flows on top of Casdoor so multiple internal apps can share a consistent, secure login and registration experience."
+      },
+      "mizfa-tools-panel": {
+        "description": "A feature-rich admin and analytics panel for Mizfa Tools. Over the course of the project, implemented complex dashboards, data visualizations, and UX refinements using React, Redux, Sass, and ECharts, turning it into one of the most polished products in my portfolio."
+      },
+      "binesh-sso": {
+        "description": "Front-end for the Binesh SSO platform panel, focusing on clean UI, maintainable React/Redux architecture, and strong TypeScript typing. Delivered responsive views and reusable components for authentication-related features."
+      },
+      "mizfa-landing": {
+        "description": "Marketing landing page introducing the Mizfa Tools platform and its SEO features. Built with React, Tailwind CSS, and Express, including blog listing sections to surface SEO‑related content alongside the product pitch."
+      },
+      "binesh-search-console": {
+        "description": "Search console-style analytics interface for Binesh, implemented with React, Redux, and ECharts. Focused on clear data visualization, performant rendering, and a UI that feels familiar to SEO specialists."
+      },
+      "mizfa-seo-extension": {
+        "description": "Chrome extension for Mizfa Tools that surfaces SEO insights directly inside the browser. Built with React, TypeScript, and MUI, integrating with Chrome APIs and DevTools to help users analyze pages quickly while they browse."
+      },
+      "alizadeh-watch-gallery": {
+        "description": "E‑commerce platform for a watch gallery, developed with Next.js and React. Implemented both the storefront and an admin panel for managing products, categories, brands, and other catalog data."
+      }
+    },
+    "viewProject": "View project"
+  },
+  "contact": {
+    "email": "Email",
+    "phone": "Phone"
   }
 }

@@ -10,6 +10,7 @@ import { TechStack } from "./components/main/tech-stack";
 import { About } from "./components/main/about";
 import { Experiences } from "./components/main/experiences";
 import { Skills } from "./components/main/skills";
+import { Projects } from "./components/main/projects";
 import { Footer } from "./components/main/footer";
 
 const AllWrapper = () => {
@@ -30,6 +31,7 @@ const AllWrapper = () => {
       <About />
       <Experiences />
       <Skills />
+      <Projects />
       <Footer />
     </ThemeProvider>
   );

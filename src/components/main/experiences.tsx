@@ -3,6 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { experiences } from "@/data/experiences";
 import { useTranslation } from "react-i18next";
+import clsx from "clsx";
 
 export function Experiences() {
   const { t, i18n } = useTranslation();
@@ -13,7 +14,7 @@ export function Experiences() {
       {/* Timeline */}
       <div>
         <section className={cn("bg-background py-32")}>
-          <div className="container">
+          <div>
             <div className="mb-16 text-center">
               <h2 className="text-3xl font-bold md:text-4xl mb-3">
                 {t("experiences.title")}
@@ -71,7 +72,12 @@ export function Experiences() {
                     {t(`experiences.items.${entry.id}.date`)}
                   </h5>
 
-                  <Card className="my-5 p-0 border-none shadow-none">
+                  <Card
+                    className={clsx("my-5 p-0 border-none shadow-none", {
+                      "bg-transparent":
+                        t(`experiences.items.${entry.id}.content`).length === 0,
+                    })}
+                  >
                     <CardContent className="p-4">
                       <div
                         className="prose text-sm text-foreground dark:prose-invert"
