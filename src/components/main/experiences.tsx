@@ -16,7 +16,7 @@ export function Experiences() {
         <section className={cn("bg-background py-32")}>
           <div>
             <div className="mb-16 text-center">
-              <h2 className="text-3xl font-bold md:text-4xl mb-3">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3">
                 {t("experiences.title")}
               </h2>
             </div>

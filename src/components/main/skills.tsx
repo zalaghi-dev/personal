@@ -10,7 +10,7 @@ export function Skills() {
     <section className="bg-muted/50 ">
       <div className="container py-10 max-w-10/12 mx-auto">
         <div className="mb-16 text-center">
-          <h2 className="text-3xl font-bold md:text-4xl mb-3">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3">
             {t("skills.title")}
             <div className="flex items-center gap-1 capitalize justify-center mt-3">
               <div className="border h-4.5 rounded-full p-0.5 flex items-center gap-1 text-xs">

@@ -1,16 +1,18 @@
 import { projects } from "@/data/projects";
 import { useTranslation } from "react-i18next";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpLeft, ArrowUpRight } from "lucide-react";
+import { useLanguageStore } from "@/store/language-store";
 
 export function Projects() {
   const { t } = useTranslation();
+  const direction = useLanguageStore((state) => state.direction);
 
   return (
     <section className="bg-background">
       <div className="container py-16 max-w-10/12 mx-auto">
         <div className="mb-10 text-center">
-          <h2 className="text-3xl font-bold md:text-4xl mb-3">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3">
             {t("projects.title")}
           </h2>
           <p className="text-muted-foreground text-sm md:text-base max-w-2xl mx-auto">
@@ -47,7 +49,11 @@ export function Projects() {
                     className="inline-flex items-center gap-1 text-xs md:text-sm text-primary hover:underline"
                   >
                     <span>{t("projects.viewProject")}</span>
-                    <ArrowUpRight className="size-3.5" />
+                    {direction === "rtl" ? (
+                      <ArrowUpLeft className="size-3.5" />
+                    ) : (
+                      <ArrowUpRight className="size-3.5" />
+                    )}
                   </a>
                 )}
               </CardContent>

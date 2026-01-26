@@ -16,7 +16,7 @@ export function Services() {
       {/* <RetroGrid /> */}
       <div className="container px-4 py-10 max-w-10/12 mx-auto">
         <div className="mb-16 text-center">
-          <h2 className="text-3xl font-bold md:text-4xl mb-3">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3">
             {t("services.title")}
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
