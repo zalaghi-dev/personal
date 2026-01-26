@@ -34,8 +34,7 @@
   },
   "about": {
     "title": "About Me",
-    "subtitle": "Software engineer building reliable products",
-    "p1": "I craft robust, user-focused applications with clean architecture and modern tooling.",
-    "p2": "I enjoy solving real problems and shipping maintainable, scalable software."
+    "subtitle": "Software engineer;",
+    "p1": "Since 2020, I’ve been navigating the ever-evolving world of software development. My journey is defined by a deep-seated curiosity and a commitment to delivering high-quality products using React, Next.js, NestJS, and React Native. I view coding as more than just a task—it's a strategic process. I enjoy connecting the dots between different technologies to find creative solutions and take pride in sharing knowledge to help projects move forward effectively. Whether it’s building from scratch or optimizing complex systems, I aim to provide value that goes beyond the code. Let’s connect and see how we can build something great together."
   }
 }
