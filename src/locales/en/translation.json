@@ -1,4 +1,5 @@
 {
+  "name": "Amir Zalaghi",
   "welcome": "Welcome",
   "language": "Language",
   "theme": "Theme",
@@ -11,6 +12,7 @@
   },
   "services": {
     "title": "Services",
+    "subtitle": "Professional services to bring your ideas to life",
     "fullStack": {
       "title": "Full-Stack Web Development",
       "description": "Design and implementation of modern web applications",
@@ -36,5 +38,38 @@
     "title": "About Me",
     "subtitle": "Software engineer;",
     "p1": "Since 2020, I’ve been navigating the ever-evolving world of software development. My journey is defined by a deep-seated curiosity and a commitment to delivering high-quality products using React, Next.js, NestJS, and React Native. I view coding as more than just a task—it's a strategic process. I enjoy connecting the dots between different technologies to find creative solutions and take pride in sharing knowledge to help projects move forward effectively. Whether it’s building from scratch or optimizing complex systems, I aim to provide value that goes beyond the code. Let’s connect and see how we can build something great together."
+  },
+  "skills": {
+    "title": "Let's take a look at my skills",
+    "legend": {
+      "basic": "basic",
+      "mid": "mid-level",
+      "pro": "professional"
+    }
+  },
+  "experiences": {
+    "title": "Let's take a look at my journey",
+    "items": {
+      "chelpi": {
+        "date": "Jan 2026 - Present",
+        "content": ""
+      },
+      "binesh": {
+        "date": "Oct 2023 - Jan 2026",
+        "content": ""
+      },
+      "airun": {
+        "date": "Oct 2024 - Present",
+        "content": ""
+      },
+      "mizfa": {
+        "date": "Sep 2023 - Jan 2025",
+        "content": ""
+      },
+      "independent": {
+        "date": "Jan 2020 - Dec 2022",
+        "content": "Focused on mastering JavaScript, modern web development frameworks, and full-stack concepts alongside my formal high school education. Completed online courses, built small to mid-size projects, and explored key areas like React, Node.js, and deployment fundamentals. This period laid the foundation for my professional work."
+      }
+    }
   }
 }

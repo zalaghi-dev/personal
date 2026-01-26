@@ -31,7 +31,7 @@ export const contactLinks: {
   },
   {
     Icon: <Telegram />,
-    variant: "secondary",
+    variant: "default",
     alt: "telegram",
     url: "https://t.me/amirzalaghi",
   },

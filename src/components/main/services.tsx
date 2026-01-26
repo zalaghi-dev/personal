@@ -20,7 +20,7 @@ export function Services() {
             {t("services.title")}
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Professional services to bring your ideas to life
+            {t("services.subtitle")}
           </p>
         </div>
 

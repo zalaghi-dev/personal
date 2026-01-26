@@ -1,7 +1,5 @@
 import { useTranslation } from "react-i18next";
-
-import { Button } from "../ui/button";
-import { contactLinks } from "@/data/contact-links";
+import { ContactLinksGroup } from "./contact-links-group";
 
 export function About() {
   const { t } = useTranslation();
@@ -20,19 +18,8 @@ export function About() {
               <p className="leading-relaxed text-sm md:text-base text-muted-foreground">
                 {t("about.p1")}
               </p>
-              <div className=" flex flex-wrap gap-1 mt-4">
-                {contactLinks.map(({ Icon, alt, url, variant }) => (
-                  <Button asChild variant={variant} size="icon-sm">
-                    <a
-                      href={url}
-                      target="_blank"
-                      rel="noreferrer"
-                      aria-label={alt}
-                    >
-                      {Icon}
-                    </a>
-                  </Button>
-                ))}
+              <div className="mt-4">
+                <ContactLinksGroup />
               </div>
             </div>
           </div>

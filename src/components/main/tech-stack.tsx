@@ -5,7 +5,7 @@ const backend = technologies.filter((t) => t.category === "backend");
 
 export function TechStack() {
   return (
-    <div className="relative bg-muted py-3 flex w-full flex-col items-center justify-center overflow-hidden">
+    <div dir="ltr" className="relative bg-muted py-3 flex w-full flex-col items-center justify-center overflow-hidden">
       <Marquee pauseOnHover className="[--duration:22s] [--gap:1rem] py-2">
         {frontend.map((tech) => (
           <div key={`fe-${tech.name}`} className="flex items-center">

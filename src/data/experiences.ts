@@ -1,33 +1,27 @@
 type TimelineEntry = {
-  date: string;
+  id: "chelpi" | "binesh" | "airun" | "mizfa" | "independent";
   title: string;
-  content: string;
 };
+
 export const experiences: TimelineEntry[] = [
   {
-    date: "Jan 2026 - Present",
+    id: "chelpi",
     title: "Chelpi Team",
-    content: "",
   },
   {
-    date: "Oct 2023 - Jan 2026",
+    id: "binesh",
     title: "Binesh-ec",
-    content: "",
   },
   {
-    date: "Oct 2024 - Present",
+    id: "airun",
     title: "AI-Run",
-    content: "",
   },
   {
-    date: "Sep 2023 - Jan 2025",
+    id: "mizfa",
     title: "Mizfa Team",
-    content: "",
   },
   {
-    date: "Jan 2020 - Dec 2022",
+    id: "independent",
     title: "Independent Learning",
-    content:
-      "Focused on mastering JavaScript,modern web development frameworks, and full-stack concepts alongside my formal highschool education. Completed online cources, built small to mid-size projects, and explored key areas like React, Nodejs, and deployment fundamentals. This perios laid the foundation for my professional work.",
   },
 ];

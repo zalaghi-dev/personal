@@ -7,8 +7,11 @@ export function Hero() {
   const { t } = useTranslation();
 
   return (
-    <section className="flex min-h-[calc(100vh-7rem)] items-start justify-center pt-32 py-12">
-      <div className="z-[-3]">
+    <section className="relative flex min-h-[calc(100vh-7rem)] items-start justify-center pt-32 py-12 overflow-hidden">
+      <div
+        dir="ltr"
+        className="pointer-events-none absolute inset-0 -z-10 overflow-hidden"
+      >
         <Meteors />
       </div>
 
@@ -30,7 +33,11 @@ export function Hero() {
           </div>
 
           <div className="flex flex-wrap mt-10 gap-4">
-            <Button size="lg">{t("hero.resume")}</Button>
+            <Button size="lg" asChild>
+              <a href="https://docs.google.com/document/d/1kA1jCErEj1byTw4eHNH0NzfrSPw3a4-ZsF3flyy8mMQ" target="_blank" rel="noopener noreferrer">
+                {t("hero.resume")}
+              </a>
+            </Button>
             <Button size="lg" variant="outline">
               {t("hero.contact")}
             </Button>
