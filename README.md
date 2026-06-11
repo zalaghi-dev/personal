@@ -1,1 +1,1 @@
-https://ui.shadcn.com/create?base=radix&style=mira&baseColor=gray&theme=red&iconLibrary=lucide&font=roboto&menuAccent=bold&menuColor=default&radius=none&item=preview
+Personal Web
