@@ -7,22 +7,28 @@ export function About() {
 
   return (
     <>
-      <section className="bg-muted/50">
-        <div className="container max-w-10/12 mx-auto">
-          <div className="grid py-10 gap-6 md:grid-cols-[160px_1fr] items-start">
+      <section id="about" className="scroll-mt-14 pt-5">
+        <div className="container max-w-10/12 mx-auto px-4">
+          <div className="grid items-start lg:grid-cols-[minmax(0,280px)_minmax(0,1fr)]">
             <div className="mx-auto md:mx-0">
-              <div className="relative size-32 rounded-xl bg-linear-to-br from-primary/15 to-primary/5 flex items-center justify-center shadow-inner overflow-hidden">
+              <div className="relative size-[calc(100%-50px)] aspect-square rounded-xl bg-linear-to-br from-primary/15 to-primary/5 flex items-center justify-center shadow-inner overflow-hidden">
                 <img
                   src={me2}
                   alt={t("hero.name")}
-                  className="h-full w-full object-cover"
+                  className="object-cover object-[50%_14px]"
                 />
               </div>
             </div>
             <div className="space-y-4">
-              <p className="leading-relaxed text-sm md:text-base text-muted-foreground">
-                {t("about.p1")}
-              </p>
+              <div>
+                <p className="font-light pb-2 uppercase tracking-wider text-primary">
+                  {t("about.title")}
+                </p>
+                <p className="leading-relaxed text-sm md:text-base text-muted-foreground">
+                  {t("about.p1")}
+                </p>
+              </div>
+
               <div className="mt-4">
                 <ContactLinksGroup />
               </div>

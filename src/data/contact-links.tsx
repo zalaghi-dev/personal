@@ -19,7 +19,7 @@ export const contactLinks: {
 }[] = [
   {
     Icon: <Mail />,
-    variant: "default",
+    variant: "secondary",
     alt: "email",
     url: "mailto:zalaghi.dev@gmail.com",
   },
@@ -31,7 +31,7 @@ export const contactLinks: {
   },
   {
     Icon: <Telegram />,
-    variant: "default",
+    variant: "secondary",
     alt: "telegram",
     url: "https://t.me/amirzalaghi",
   },

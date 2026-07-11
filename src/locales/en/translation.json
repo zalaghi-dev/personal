@@ -3,35 +3,47 @@
   "welcome": "Welcome",
   "language": "Language",
   "theme": "Theme",
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "stack": "Stack",
+    "contact": "Contact"
+  },
   "hero": {
-    "greeting": "Hello",
+    "greeting": "Hello everyone",
     "name": "I'm Amir Zalaghi",
     "role": "Software Engineer",
+    "tagline": "I turn ambitious <br/> <amber>ideas</amber> into <br/><primary>Production Software</primary>",
+    "description": "Building software is more than writing code. It's about understanding requirements, <br/> making thoughtful engineering decisions, and creating systems that continue to <br/> evolve long  after they're shipped.<br/>Have an idea? Let's build it together.",
     "resume": "My Resume",
-    "contact": "Contact me"
+    "contact": "Contact Me",
+    "stats": {
+      "yearsExperience": "Years Experience",
+      "projectsCompleted": "Projects Completed",
+      "companies": "Companies",
+      "technologies": "Technologies"
+    }
   },
   "services": {
-    "title": "Services",
-    "subtitle": "Professional services to bring your ideas to life",
+    "title": "WHAT I DO",
+    "subtitle": "Services I can help you with",
     "fullStack": {
       "title": "Full-Stack Web Development",
-      "description": "Design and implementation of modern web applications",
-      "techStack": "Next.js / React • TypeScript • PostgreSQL / Prisma • Clean Architecture • Production-ready code"
+      "description": "Design and implementation of modern web applications"
     },
     "backend": {
       "title": "Backend & API Engineering",
-      "description": "Scalable and secure backend design",
-      "techStack": "REST API • Authentication & Authorization • Role-based Access Control • Database design"
+      "description": "Scalable and secure backend design"
     },
     "saas": {
       "title": "SaaS & MVP Development",
-      "description": "Building MVPs and SaaS for startups",
-      "techStack": "Multi-tenant architecture • Admin panel • Feature-based growth • MVP → Scale"
+      "description": "Building MVPs and SaaS for startups"
     },
     "devops": {
       "title": "DevOps & Deployment",
-      "description": "Setup and deployment of real-world projects",
-      "techStack": "Docker / Docker Compose • CI/CD • Linux server • Reverse proxy (Traefik / Nginx)"
+      "description": "Setup and deployment of real-world projects"
     }
   },
   "about": {
@@ -48,7 +60,7 @@
     }
   },
   "experiences": {
-    "title": "Let's take a look at my journey",
+    "title": "My Journey",
     "items": {
       "chelpi": {
         "date": "Jan 2026 - Present",

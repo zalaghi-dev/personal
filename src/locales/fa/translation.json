@@ -3,35 +3,47 @@
   "welcome": "خوش آمدید",
   "language": "زبان",
   "theme": "تم",
+  "nav": {
+    "home": "خانه",
+    "about": "درباره",
+    "experience": "تجربه",
+    "projects": "پروژه‌ها",
+    "stack": "استک",
+    "contact": "تماس"
+  },
   "hero": {
-    "greeting": "سلام",
+    "greeting": "سلام به همه",
     "name": "من امیر زلقی ام",
     "role": "مهندس نرم‌افزار",
+    "tagline": "<amber>ایده‌های بزرگ</amber> را به <br/><primary>محصول واقعی</primary> تبدیل می‌کنم",
+    "description": "ساخت نرم‌افزار فقط نوشتن کد نیست؛ به درک نیازها، تصمیم‌های مهندسی آگاهانه و ایجاد سیستم‌هایی برمی‌گردد که مدت‌ها پس از تحویل هم به تکامل خود ادامه می‌دهند.<br/>ایده‌ای داری؟ بیایید با هم بسازیمش.",
     "resume": "رزومه من",
-    "contact": "تماس با من"
+    "contact": "تماس با من",
+    "stats": {
+      "yearsExperience": "سال تجربه",
+      "projectsCompleted": "پروژه تکمیل‌شده",
+      "companies": "شرکت",
+      "technologies": "تکنولوژی"
+    }
   },
   "services": {
-    "title": "خدمات",
-    "subtitle": "خدمات حرفه‌ای برای زنده کردن ایده‌های شما",
+    "title": "حوزه کاری من",
+    "subtitle": "خدماتی که می‌تونم کمکتون کنم",
     "fullStack": {
       "title": "توسعه Full-Stack",
-      "description": "طراحی و پیاده‌سازی وب‌اپلیکیشن‌های مدرن",
-      "techStack": "Next.js / React • TypeScript • PostgreSQL / Prisma • معماری تمیز • کد آماده تولید"
+      "description": "طراحی و پیاده‌سازی وب‌اپلیکیشن‌های مدرن"
     },
     "backend": {
       "title": "مهندسی بک‌اند و API",
-      "description": "طراحی بک‌اند مقیاس‌پذیر و امن",
-      "techStack": "REST API • احراز هویت و مجوزدهی • کنترل دسترسی مبتنی بر نقش • طراحی پایگاه داده"
+      "description": "طراحی بک‌اند مقیاس‌پذیر و امن"
     },
     "saas": {
       "title": "توسعه SaaS و MVP",
-      "description": "ساخت MVP و SaaS برای استارتاپ‌ها",
-      "techStack": "معماری چند مستأجره • پنل ادمین • رشد مبتنی بر ویژگی • MVP → مقیاس‌پذیری"
+      "description": "ساخت MVP و SaaS برای استارتاپ‌ها"
     },
     "devops": {
       "title": "DevOps و استقرار",
-      "description": "راه‌اندازی و استقرار پروژه‌های واقعی",
-      "techStack": "Docker / Docker Compose • CI/CD • سرور لینوکس • پروکسی معکوس (Traefik / Nginx)"
+      "description": "راه‌اندازی و استقرار پروژه‌های واقعی"
     }
   },
   "about": {
@@ -48,7 +60,7 @@
     }
   },
   "experiences": {
-    "title": "بیایید نگاهی به مسیر من داشته باشیم",
+    "title": "مسیر من",
     "items": {
       "chelpi": {
         "date": "۱۴۰۴ - اکنون",

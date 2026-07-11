@@ -88,6 +88,11 @@ export const technologies: Technology[] = [
     logo: "https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white",
   },
   {
+    name: "Redis",
+    category: "backend",
+    logo: "https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white",
+  },
+  {
     name: "TypeScript",
     category: "frontend",
     logo: "https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white",

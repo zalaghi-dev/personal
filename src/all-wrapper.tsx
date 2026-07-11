@@ -12,6 +12,7 @@ import { Experiences } from "./components/main/experiences";
 import { Skills } from "./components/main/skills";
 import { Projects } from "./components/main/projects";
 import { Footer } from "./components/main/footer";
+import { Separator } from "./components/ui/separator";
 
 const AllWrapper = () => {
   const { lang } = useLanguageStore();
@@ -29,6 +30,7 @@ const AllWrapper = () => {
       <TechStack />
       <Services />
       <About />
+      <Separator className="my-18" />
       <Experiences />
       <Skills />
       <Projects />

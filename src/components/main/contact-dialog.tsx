@@ -9,7 +9,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-import { Check, Copy } from "lucide-react";
+import { Check, Copy, PhoneOutgoing } from "lucide-react";
 import { ContactLinksGroup } from "./contact-links-group";
 import { Separator } from "../ui/separator";
 
@@ -42,7 +42,7 @@ export function ContactDialog() {
     <Dialog>
       <DialogTrigger asChild>
         <Button size="lg" variant="outline">
-          {t("hero.contact")}
+          {t("hero.contact")} <PhoneOutgoing />
         </Button>
       </DialogTrigger>
       <DialogContent>

@@ -3,6 +3,8 @@ type TimelineEntry = {
   title: string;
 };
 
+export const careerStartYear = 2020;
+
 export const experiences: TimelineEntry[] = [
   {
     id: "chelpi",

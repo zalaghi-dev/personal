@@ -9,7 +9,7 @@ export function Projects() {
   const direction = useLanguageStore((state) => state.direction);
 
   return (
-    <section className="bg-background">
+    <section id="projects" className="scroll-mt-14 bg-background">
       <div className="container py-16 max-w-10/12 mx-auto">
         <div className="mb-10 text-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3">
